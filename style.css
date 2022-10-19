@@ -1,0 +1,29 @@
+
+#navBar{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    height:50px;
+    background-color:black;
+   
+}
+
+.item{
+color:lightgrey;
+}
+
+
+@media screen and (max-width:345px) and (max-height:926px)
+{
+    #navBar{
+        display:flex;
+        flex-direction:column;
+        height:250px;
+        padding-top:20px;
+        background-color:black;
+        }
+
+    .item{
+        color:lightgrey;
+    }
+}
